@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`payload payload matches snapshot of errors 1`] = `
+Object {
+  "body": "{\\"msg_type\\":\\"interactive\\",\\"card\\":{\\"elements\\":[{\\"tag\\":\\"div\\",\\"text\\":{\\"tag\\":\\"lark_md\\",\\"content\\":\\"message\\"}}]}}",
+  "headers": Object {
+    "Content-Type": "application/json",
+  },
+  "method": "POST",
+}
+`;

@@ -1,0 +1,49 @@
+{
+  "name": "semantic-release-weapp",
+  "description": "Post feishu(飞书) notifications to a webhook on success or failure of a semantic-release job",
+  "version": "2.0.1",
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "David Aghassi",
+  "repository": {
+    "url": "git@github.com:WumaCoder/semantic-release-weapp.git"
+  },
+  "scripts": {
+    "lint": "yarn eslint *.js",
+    "test": "jest tests"
+  },
+  "dependencies": {
+    "@semantic-release/error": "2.2.0",
+    "aggregate-error": "3.0.1",
+    "debug": "4.1.1",
+    "node-emoji": "1.10.0",
+    "node-fetch": "2.6.1",
+    "read-pkg-up": "5.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "8.2.0",
+    "@semantic-release/git": "7.0.18",
+    "@semantic-release/github": "5.5.8",
+    "@semantic-release/npm": "5.3.5",
+    "commitlint": "8.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-jest": "23.20.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-react": "7.25.1",
+    "husky": "3.1.0",
+    "jest": "24.9.0",
+    "lint-staged": "9.5.0",
+    "prettier": "1.17.1",
+    "semantic-release": "15.14.0"
+  }
+}
